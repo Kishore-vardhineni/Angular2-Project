@@ -1,5 +1,8 @@
  Hi Angular project 
   I am very intersted created angular project
 
-Routing
-Services
+Routing,
+Services,
+
+Databinding
+Components

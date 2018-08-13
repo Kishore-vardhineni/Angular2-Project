@@ -14,7 +14,8 @@ Services
 Directives,
 Forms,
 
-Modal-driven-forms
+Modal-driven-forms,
+Template-driven-form
 
 Changes done my side
 

@@ -1,6 +1,13 @@
  Hi Angular project 
   I am very intersted created angular project
 
+
+Routing,
+Services,
+
+Databinding
+Components
+
 Routing
 Services
 
@@ -8,3 +15,4 @@ Directives,
 Forms
 
 Changes done my side
+

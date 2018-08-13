@@ -17,5 +17,9 @@ Forms,
 Modal-driven-forms,
 Template-driven-form
 
+pipes,
+custom pipes
+custom-directive
+
 Changes done my side
 

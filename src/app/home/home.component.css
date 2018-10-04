@@ -1,0 +1,16 @@
+.sideContent{
+    background-color:silver;
+    text-align:center;
+    font-size:large;
+    min-height:500px;
+    margin-bottom:10px;
+    min-width: 200px;
+}
+.mainContent{
+    background-color:silver;
+    text-align:center;
+    font-size:large;
+    min-height:500px;
+    min-width: 900px;
+    margin-left: 50px;
+}

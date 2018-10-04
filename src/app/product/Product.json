@@ -1,0 +1,15 @@
+[{
+   "ProductID": 1,
+   "ProductName": "Mobile",
+   "ProductPrice":8000,
+   "ProductQuality":"Good",
+   "ProductCompany":"Lenovo"
+},
+
+{
+   "ProductID": 2,
+   "ProductName": "Laptop",
+   "ProductPrice":32000,
+   "ProductQuality":"Average",
+   "ProductCompany":"Hp"
+}]

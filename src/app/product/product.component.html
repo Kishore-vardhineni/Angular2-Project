@@ -1,0 +1,19 @@
+<h1>
+  {{"This is my website:"+name}}
+</h1>
+<table>
+  <tr>
+    <th>ProductID</th>
+    <th>ProductName</th>
+    <th>ProductPrice</th>
+    <th>ProductQuality</th>
+    <th>ProductCompany</th>
+  </tr>
+  <tr *ngFor="let prod of product">
+     <th>prod.ProductId</th>
+     <th>prod.ProductName</th>
+     <th>prod.ProductPrice</th>
+     <th>prod.ProductQuality</th>
+     <th>prod.ProductCompany</th>
+  </tr>
+</table>

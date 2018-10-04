@@ -1,0 +1,36 @@
+<p style="text-align:center">
+   Welcome to {{"This is myname:"+" "+name}}
+</p>
+<h1 style="text-align:center">
+    <img [src]='myImage'/>
+</h1>
+<div style="text-align:center"> 
+   FirstNumber:<input type="text" #userFirstNumebr/><br/><br/>
+   SecondNumber:<input type="text" #userSecondNumber/><br/><br/>
+   <button (click)="addFunction(userFirstNumebr.value,userSecondNumber.value)">AddSum</button>
+</div>
+
+<div class="container">
+  <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+            <th>InventoryId</th>
+            <th>InventoryName</th>
+            <th>InventoryService</th>
+            <th>InventoryAddress</th>
+        </tr>
+      </thead>
+      <tbody class="table-success">
+            <tr *ngFor='let invent of Inventory'>
+                <td >{{invent.InventoryId}}</td>
+                <td>{{invent.InventoryName}}</td>
+                <td>{{invent.InventoryService}}</td>
+                <td>{{invent.InventoryAddress}}</td>
+            </tr>
+      </tbody>    
+  </table>
+ 
+   FirstName:<input type="text" [(ngModel)]="fname">
+   SecondName:<input type="text" [(ngModel)]="lname">
+   FullName:{{fname}}{{lname}}
+</div>
